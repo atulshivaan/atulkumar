@@ -7,7 +7,7 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import cv from "../../assets/Atul Kumar (5).pdf";
-import { useTheme } from "../../coomon/ThemeContext.jsx";
+import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();

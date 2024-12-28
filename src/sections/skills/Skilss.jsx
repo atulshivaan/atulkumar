@@ -2,8 +2,8 @@ import styles from "./SkilsStyles.module.css"
 import checkMarkIconDark from '../../assets/checkmark-dark.svg';
 import checkMarkIconLight from '../../assets/checkmark-light.svg';
 import checkMarkIcon from "../../assets/checkmark-dark.svg"
-import SkillList from "../../coomon/SkillList"
-import { useTheme } from "../../coomon/ThemeContext";
+import SkillList from "../../common/SkillList"
+import { useTheme } from "../../common/ThemeContext";
 function Skilss() {
 
   const { theme } = useTheme();
